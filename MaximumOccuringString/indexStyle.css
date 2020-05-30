@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+#OutputText {
+    border: 0 none white;
+    padding: 0;
+    outline: none;
+}
