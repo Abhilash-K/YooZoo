@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloWorld</title>
+    <script language="javascript" src="main.js"></script>
+    <script language="javascript" src="process.js"></script>
+    <script language="javascript" src="solution.js"></script>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+    <!--<body onload="init();">-->
+    <body>
+        <button style="height:20px;width:100px" onclick="readTextFile('A-small-practice.in')">ReadFile</button>
+        <!--<button style="height:20px;width:100px" onclick="downloadClicked('A-small-practice.out')">Process</button>-->
+        <button style="height:20px;width:100px" onclick="downloadClicked('A-small-practice.out')">Download</button>
+        <table>
+            <tr>
+                <th>Input</th>
+                <th>Output</th>
+            </tr>
+            <tr>
+                <td id="InputText">
+
+                </td>
+                <td>
+                    <textarea  id="OutputText"></textarea>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
